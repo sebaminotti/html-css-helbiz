@@ -53,16 +53,46 @@ background-size:cover;
 background-position: center;
 }
 
+.testo1 {
+margin-left: 50%;
+position: absolute;
+color: WHITE;
+line-height: 70VH;
+transform: translate(-50%);
+font-size: 2EM;
+}
+.testo2 {
+position: absolute;
+line-height: 90vh;
+transform: translate(-50%);
+margin-left: 50%;
+color: white;
 
-
+}
+.app {
+position: absolute;
+line-height:115vh;
+transform: translate(-50%);
+margin-left: 50%;
+}
+.app img {
+width: 50%;
+}
 
 @media screen and (max-width:768px) {
   .menu_nav {
   display: none;
+  }
+  .testo1 h1 {
+  font-size: 0.8em;
+  }
+  .testo2 h2 {
+  font-size: 0.7em;
   }
 }
 @media screen and (min-width:768px) {
   #hamburger {
   display: none;
   }
+
 }
